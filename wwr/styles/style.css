@@ -1,7 +1,15 @@
 body {
     background-color: #134266;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
+    font-family: Lato, Helvetica, sans-serif;
     text-align: left;
     background-color: rgb(219, 219, 235);
 }
@@ -13,6 +21,7 @@ nav a {
     color:#134266;
     text-align: center;
     text-decoration: none;
+    padding: 55px;
 }
 nav a:hover {
     background-color: rgb(160, 160, 161);
@@ -20,15 +29,21 @@ nav a:hover {
 }
 #hero-msg h1 {
     text-align: center;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 2em;
 }
 #hero-msg h4 {
     text-align: center;
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 1em;
 }
 .button-box {
     text-align: center;
+    font-family: Lato, Helvetica, sans-serif;
 }
 main section {
     text-align: center;
+    font-family: Lato, Helvetica, sans-serif;
 }
 #background {
     height: 725px;
@@ -38,36 +53,50 @@ main section {
     color:#FCE172;
 }
 .book {
-    background-color: #008df9;
+    background-color: #134266;
     text-decoration: none;
     color: white;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover {
-    background-color: #134266;
+    background-color: #008df9;
     color: white;
 }
 .join {
-    background-color: #1fcd13;
+    font-family: Lato, Helvetica, sans-serif;
+    background-color: #217B1A;
     text-decoration: none;
     color: white;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join:hover {
-      background-color: #217B1A;
+      background-color: #1fcd13;
       color: white;
 }
 .msg {
     background-color: #217B1A;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
+    padding: 25px 50px;
+    margin-top: 200px;
+    font-family: Lato, Helvetica, sans-serif;
     text-align: left;
     background-color: rgb(219, 219, 235);
     color: #134266
+
 }
 footer a {
     text-decoration: none;
     color: #134266; 
 }
 footer p {
+    font-family: Lato, Helvetica, sans-serif;
     font-size: 1.2em;
 }
 footer p a:hover {
@@ -77,8 +106,12 @@ footer a:hover {
     background-color: rgb(160, 160, 161);
     color:#ffffff;
 }
+
 .home-title {
+    font-family: Lato, Helvetica, sans-serif;
     color: #FCE172;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #FCE172;
@@ -88,17 +121,42 @@ h4 {
 }
 .msg p {
     color: #FCE172; 
+    padding-bottom: 15px;
 }
 .home-grid {
     color: #FCE172; 
 }
 .logo {
     width: 80px;
+    padding-top: 5px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
+    border-radius: 50%;
 }
 #hero-img {
     width: 100%;
 }
-
+footer .social img {
+    padding-top: 15px;
+}
+.river-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
+  
+}
+.card-img {
+    border: 5px solid #FCE172;
+    width: 300px;
+    height: 300px;
+}
+main section img {
+    box-sizing: border-box;
+    border-radius: 3%;
+}
