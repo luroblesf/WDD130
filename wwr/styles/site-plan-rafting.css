@@ -8,11 +8,11 @@ Fonts are separated by a & */
   --primary-color: #217B1A   ;
   --secondary-color: #134266 ;
   --accent1-color: #FCE172;
-  --accent2-color: #78C5D7;
+  --accent2-color: #008df9;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Poppins";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  --paragraph-font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #134266;  /* headlines on a white background */ 
@@ -21,7 +21,7 @@ Fonts are separated by a & */
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #134266;
   --nav-link-color: #134266;
-  --nav-background-color: #78C5D7;
+  --nav-background-color: #008df9;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #134266;
 }
