@@ -12,9 +12,9 @@ div h1{
 }
 .icon {
     width: 80px;
-    padding-top: 10px;
-    border-radius: 50%;
-    margin-left: -700px;
+    padding-top: 50px;
+    border-radius: 5%;
+    margin-left: 800px;
     margin-right: 430px;
     margin-top: -1000px;
     margin-bottom: 30px;
@@ -52,7 +52,7 @@ main section {
 #background {
     height: 725px;
     background-color: #ffffff;
-    grid-column: 1/11;
+    grid-column: 1/9;
     grid-row: 4/9;
 }
 footer {
