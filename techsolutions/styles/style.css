@@ -1,0 +1,58 @@
+
+nav a {
+    color:white;
+    text-align: center
+    padding: 35px;
+}
+nav {    
+    display: flex;
+    justify-content: space-around;
+    background-color: #223065;
+}
+nav a:hover {
+    background-color:#98999C;
+    color: white;
+}
+#toppage {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.logo {
+    width: 150px;
+    padding-top: 10px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: right;
+    align-self: right;
+}
+
+
+
+
+footer {
+    background-color: #A301E6;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Raleway;
+    text-align: left;
+    color: white;
+}
+footer a {
+    text-decoration: none;
+    color: #223065; 
+}
+footer p {
+    font-family: Merienda;
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: unset;
+}  
+footer a:hover {
+    background-color: #98999C;
+    color:#ffffff;
+}
