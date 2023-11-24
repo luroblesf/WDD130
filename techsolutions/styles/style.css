@@ -11,7 +11,7 @@ body {
 }
 header {
     font-family: Merienda ;
-    font-size: 20px;
+    font-size: 25px;
     background-color:#14162e;
     text-align: center;
     display: grid;
@@ -61,19 +61,19 @@ section{
     text-align: center;
     grid-column: 4/6;
     grid-row: 1/5 ;
-    font-size: medium;
+    font-size: 25px;
 }
 .block1 p:nth-of-type(2) {
     text-align: left;
     grid-column: 4/6;
     grid-row: 2/4;
-    font-size: medium;
+    font-size: 25px;
 }
 .block1 h1{
   text-align: center;
   grid-column: 4/6;
   grid-row: 5/5;
-  font-size: medium;
+  font-size: 28px;
 }
 .aline {
     margin: 2%;
