@@ -134,7 +134,7 @@ h1 {
 .block2 h2 {
     text-align: center;
     grid-column: 4/6;
-    grid-row: 2;
+    grid-row: 1;
     font-size: 30px;
 }
 .block3 h1{
