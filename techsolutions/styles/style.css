@@ -60,19 +60,25 @@ section{
 .block1 p:nth-of-type(1) {
     text-align: center;
     grid-column: 4/6;
-    grid-row: 1/5 ;
+    grid-row: 1 ;
     font-size: 25px;
 }
 .block1 p:nth-of-type(2) {
-    text-align: left;
+    text-align: center;
     grid-column: 4/6;
-    grid-row: 2/4;
+    grid-row: 2;
     font-size: 25px;
 }
+.block1 ul{
+    text-align: left;
+    grid-column: 4/6;
+    grid-row: 3;
+    font-size: 25px;
+  }
 .block1 h1{
   text-align: center;
   grid-column: 4/6;
-  grid-row: 5/5;
+  grid-row: 4;
   font-size: 28px;
 }
 .aline {
