@@ -481,26 +481,3 @@ button {
     margin-top: 5em;
     font-family: Merienda;
 }
-
-@media screen and (max-width: 900px) {
-    #toppage, .home-grid {
-        display: block;
-        height: auto;
-    }
-    nav, footer {
-        flex-direction: column;
-    }
-    nav a {
-        display: block;
-        padding: 15px;
-    }
-    #toppage {
-        margin-top: 0;
-    }
-    #aline {
-    margin: 50px auto;
-    width: 60%;
-    }
-    footer {
-        margin-top: 25px;
-    }
