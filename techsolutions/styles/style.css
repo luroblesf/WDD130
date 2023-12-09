@@ -31,35 +31,33 @@ nav {
     background-color: #14162e;
 }
 .btn {
-    border: 1px solid white;
+    display: flex;
+    justify-content: space-around;
     background-color: #14162e;
-    color: black;
-    margin: 4%;
-    padding: 14px 28px;
-    cursor: pointer;
-    font-size: 1em;
-    font-family: Merienda;
 }
 .button1 {
-    border-color: white;
-    background-color: #A301E6;
+    display: block;
+        padding: 15px;
 }
 .button1:hover {
-    background-color:#98999C;
+    display: block;
+    padding: 15px;
 }
 .button2 {
-    border-color: white;
-    background-color: #A301E6;
+    display: block;
+    padding: 15px;
 }
 .button2:hover {
-    background-color:#98999C;
+    display: block;
+    padding: 15px;
 }
 .button3 {
-    border-color: white;
-    background-color: #A301E6;
+    display: block;
+    padding: 15px;
 }
 .button3:hover {
-    background-color:#98999C;
+    display: block;
+    padding: 15px;
 }
 #toppage {
     max-width: 1600px;
@@ -501,14 +499,8 @@ button {
         padding: 15px;
     }
     .btn {
-        border: 1px solid white;
-        background-color: #14162e;
-        color: black;
-        margin: 4%;
-        padding: 14px 28px;
-        cursor: pointer;
-        font-size: 1em;
-        font-family: Merienda;
+        display: block;
+        padding: 15px;
     }
     .button1 {
         border-color: white;
@@ -536,11 +528,12 @@ button {
         margin: 0 auto;
     }
     .logo {
-        width: 230px;
-        padding-top: 20px;
+        max-width: 1600px;
+        margin: 0 auto;
     }
     #logo_link {
-        padding-top: 5px;
+        max-width: 1600px;
+        margin: 0 auto;
     }
     section{
         display: grid;
@@ -550,10 +543,8 @@ button {
         grid-template-rows: 20%;
     }
     .photo1 {
-        width: 70%;
-        grid-column: 1/5;
-        grid-row: 1/5;
-        box-shadow: 5px 5px 10px #98999C;
+        margin: 50px auto;
+        width: 60%;;
     }
     .block1 p:nth-of-type(1) {
         text-align: center;
@@ -586,31 +577,16 @@ button {
         grid-template-rows: 1fr;
     }
     .photo2 {
-        margin: 50px 0;
-        grid-column: 1/2;
-        grid-row: 1;
-        width: 300px;
-        height: 150px;
-        transition: transform .5s;
-        box-shadow: 5px 5px 10px #98999C;
+        margin: 50px auto;
+        width: 60%;;
     }
     .photo3 {
-        margin: 50px 0;
-        grid-column: 1/2;
-        grid-row: 1;
-        width: 300px;
-        height: 150px;
-        transition: transform .5s;
-        box-shadow: 5px 5px 10px #98999C;
+        margin: 50px auto;
+        width: 60%;
     }
     .photo4 {
-        margin: 50px 0;
-        grid-column: 1/2;
-        grid-row: 1;
-        width: 300px;
-        height: 150px;
-        transition: transform .5s;
-        box-shadow: 5px 5px 10px #98999C;
+        margin: 50px auto;
+        width: 60%;
     }
     .team{
         display: grid;
@@ -634,10 +610,8 @@ button {
         font-size: 27px;
     }
     .photo5 {
-        width: 150%;
-        grid-column: 3/5;
-        transition: transform .5s;
-        box-shadow: 5px 5px 10px #98999C;
+        margin: 50px auto;
+        width: 60%;
     }
     .block2 section{
         display: grid;
