@@ -480,16 +480,9 @@ button {
     font-family: Merienda;
 }
 @media screen and (max-width: 900px) {
-    body {
-        background-color: #ffffff;
-        font-family: Raleway;
-        font-size: 22px;
-        margin: 1px;
-        padding: 1px;
-    }    
-    #toppage, .logo {
-        display: block;
-        height: auto;
+    #toppage {
+    max-width: 1600px;
+    margin: 0 auto;
     }
     nav, footer {
         flex-direction: column;
