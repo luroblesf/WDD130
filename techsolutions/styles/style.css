@@ -488,27 +488,17 @@ button {
         font-size: 22px;
         margin: 1px;
         padding: 1px;
+    }    
+    #toppage {
+        display: block;
+        height: auto;
     }
-    header {
-        font-family: Merienda;
-        font-size: 25px;
-        background-color:#14162e;
-        text-align: center;
-        display: grid;
-        grid-template-columns: 75% auto;
-        margin: 2%;
+    nav, footer {
+        flex-direction: column;
     }
     nav a {
-        padding: 60px;
-        color: white;
-        text-shadow: 5px 4px 15px white;
-        text-align: center;
-        text-decoration: none;
-    }
-    nav {    
-        display: flex;
-        justify-content: space-around;
-        background-color: #14162e;
+        display: block;
+        padding: 15px;
     }
     .btn {
         border: 1px solid white;
@@ -889,33 +879,8 @@ button {
     
     }
     footer {
-        background-color: #A301E6;
-        padding: 25px 50px;
-        margin-top: 200px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        font-family: Raleway;
-        text-align: left;
-        color: white;
-    }
-    footer a {
-        text-decoration: none;
-        color: #223065; 
-    }
-    footer p {
-        font-family: Merienda;
-        font-size: 15px;
-    }
-    footer p a:hover {
-        text-decoration: unset;
-    }  
-    footer a:hover {
-        color:#ffffff;
-    }
-    footer .social img {
-        width: 8%;
-        margin-right: 5%;
+        flex-direction: column;
+        margin-top: 25px;
     }
     form {
         margin: 2 auto;
